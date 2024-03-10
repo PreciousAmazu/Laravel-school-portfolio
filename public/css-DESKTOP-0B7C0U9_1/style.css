@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body{
+    font-family:  sans-serif;
+    background-color: rgb(91, 190, 230);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(218, 218, 218);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+.nav-logo{
+    width: 20%;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list a:hover{
+    color: skyblue;
+}
+.active{
+    color: rgb(4, 100, 138) !important;
+}
+.nav-item{
+    margin-left: 40px;
+}
+.content{
+    padding-top: 70px;
+    display: flex;
+    background-color:  rgb(91, 190, 230);
+}
+.side-menu{
+    margin-top: 20px;
+    height: 89vh;
+    width: 15%;
+    background-color: lightgray;
+    border-radius: 10%;
+}
+.side-menu-list{
+    padding: 40px 30px;
+}
+.side-menu-item{
+    padding: 20px 0px;
+}
+.side-menu-item a{
+    text-decoration: none;
+    color: black;
+}
+.side-menu-item a:hover{
+    color: rgb(10, 127, 173);
+}
+.information{
+    height: 91.5vh;
+    width: 85%;
+    padding-top: 49px;
+    padding-left: 80px;
+}
+.head{
+    text-align: center;
+}
+.inspiration{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
+    align-items: center;
+}
+.text{
+    width: 50%;
+    line-height: 30px;
+}
+.images{
+    width: 50%;
+    margin-left: 50px;
+}
+.context{
+    padding-top: 90px;
+}
+.about{
+    padding: 40px;
+    background-color: lightgray;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+.heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about p{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+.about ol{
+    padding-left: 125px;
+}
+.extra-activities{
+    background-color: lightgray;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10%;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.info .one{
+    width: 25%;
+}
+.nbsa-data{
+    padding-top: 120px;
+    text-align: center;
+}
+.nbsa-titles{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.nbsa-bar,
+.nbsa-percentage{
+  height: 10px;
+  border-radius: .25rem;
+}
+.nbsa-bar{
+    width: 55%;
+    background-color: white;
+    margin-left: 365px;
+}
+
+.nbsa-percentage{
+    display: block;
+    background-color: rgb(7, 92, 126);
+    width: 60%;
+}
+table{
+    margin: 40px auto;
+}
+th,td{
+    padding: 20px;
+}
+.faq{
+    background-color: lightgrey;
+    margin: 150px 150px;
+    width: 80%;
+    padding: 100px 100px;
+    border-radius: 10%;
+}
+.blog-header{
+    text-align: center;
+    padding-top: 100px;
+}
+.post{
+    margin: 150px 0px 0px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    padding: 0 0 20px 0;
+}
+.post div{
+    background: lightgray;
+    width: 90%;
+    height: 40vh;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10%;
+}
+.post div p{
+    padding-top: 20px;
+    line-height: 30px;
+}
