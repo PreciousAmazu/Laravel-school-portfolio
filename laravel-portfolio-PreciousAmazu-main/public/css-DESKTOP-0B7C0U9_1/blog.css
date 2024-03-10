@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body{
+    font-family:  sans-serif;
+    background-color:  rgb(91, 190, 230);
+}
+button {
+    margin: 50px 0px 0px 100px;
+    padding: 20px 50px;
+    background-color: lightgray;
+}
+button a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+
+}
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+/* The content is used to style the background for almost all the blog page content*/
+.content{
+    background-color: lightgray;
+    width: 70%;
+    height: 90vh;
+    margin: 50px auto;
+    text-align: center;
+    padding: 60px 30px 50px 70px;
+    border-radius: 10%;
+}
+.content div{
+    margin: 0 auto 30px auto;
+    width: 80%;
+}
+.content div h1{
+    padding: 20px;
+}
+.feedback{
+    text-align: left;
+    line-height: 30px;
+    padding-right: 20px;
+}
+.info{
+    margin: 50px auto;
+    width: 80%;
+    height: 110vh;
+    text-align: center;
+}
+.info p,h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.headers{
+    padding-top: 20px;
+}
+.context{
+    border-radius: 10%;
+    background: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+    line-height: 20px;
+}
